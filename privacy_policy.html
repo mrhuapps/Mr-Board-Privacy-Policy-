@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mr. Board</title>
+    <style>
+        :root {
+            --bg-color: #080d09;
+            --card-bg: #0f1a12;
+            --accent-color: #00FF66;
+            --accent-glow: rgba(0, 255, 102, 0.15);
+            --text-primary: #e6f4ea;
+            --text-secondary: #86a391;
+            --border-color: #1b3824;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            line-height: 1.68;
+            padding: 30px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--accent-glow);
+            color: var(--accent-color);
+            border: 1px solid var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.3rem;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            font-size: 1.35rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #ffffff;
+            font-size: 1.05rem;
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+
+        p, ul {
+            color: var(--text-primary);
+            font-size: 0.96rem;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: rgba(0, 255, 102, 0.05);
+            border-left: 4px solid var(--accent-color);
+            padding: 16px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #c8ebd2;
+            font-weight: 500;
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 20px;
+            margin-top: 24px;
+        }
+
+        .contact-card p {
+            margin-bottom: 6px;
+        }
+
+        .contact-card a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px 8px;
+            }
+            .container {
+                padding: 24px 18px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">Official Privacy Policy</span>
+        <h1>Mr. Board</h1>
+        <p class="subtitle">Effective Date: November 7, 2026 • Last Updated: November 7, 2026</p>
+        <p class="subtitle">Developed by <strong>Mr. HU Apps</strong></p>
+    </header>
+
+    <div class="highlight-box">
+        <p>🔒 <strong>Zero Data Collection Guarantee:</strong> Mr. Board is built with a strict privacy-first architecture. We do not collect, monitor, store, or transmit your keystrokes, personal messages, passwords, photos, or device files to any server. All processing runs 100% on your device.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>This Privacy Policy outlines how <strong>Mr. HU Apps</strong> ("we", "our", or "developer") handles privacy and data protection within the <strong>Mr. Board</strong> Android application (package: <code>com.mrhuapp.mrboard</code>). We respect the privacy of our users and are committed to protecting it in compliance with the Google Play Developer Program Policies, GDPR, and international data protection regulations.</p>
+
+    <h2>2. Keyboard Input & Typing Privacy</h2>
+    <p>As a native Input Method Service (IME), Mr. Board prioritizes keystroke privacy above all else:</p>
+    <ul>
+        <li><strong>No Keystroke Logging:</strong> What you type into Mr. Board never leaves your device. We do not operate logging databases, remote cloud servers, or keyloggers.</li>
+        <li><strong>Sensitive Field Protection:</strong> When you enter passwords, PINs, OTP codes, or financial credentials, Mr. Board automatically detects the secure input flag and disables word suggestions, clipboard caching, and cheat-code detection.</li>
+        <li><strong>Local Prediction Dictionaries:</strong> All multi-language bigram suggestions and vocabulary dictionaries run strictly on-device using pre-bundled lexical mappings.</li>
+        <li><strong>Local Clipboard Manager:</strong> Snippets copied to the internal clipboard are stored in local sandbox memory and can be cleared or deleted by you at any time.</li>
+    </ul>
+
+    <h2>3. Mr. Mouse Precision Pad & Accessibility Service</h2>
+    <p>Mr. Board provides an optional software trackpad and floating overlay called <strong>Mr. Mouse</strong> that requires the Android Accessibility API (<code>AccessibilityService</code>) to function:</p>
+    <ul>
+        <li><strong>Single Purpose:</strong> The Accessibility Service is used exclusively to simulate user-commanded touch actions (taps, double taps, right-click long presses, drag-and-drop, and scroll gestures) when you interact with the software mouse pad.</li>
+        <li><strong>Zero Surveillance:</strong> Mr. Mouse strictly does <strong>NOT</strong> inspect window contents, does <strong>NOT</strong> read on-screen text, does <strong>NOT</strong> record keystrokes, and does <strong>NOT</strong> monitor your activities in other applications.</li>
+        <li><strong>Full User Control:</strong> You can enable or disable the Accessibility Engine at any time in Android System Settings.</li>
+    </ul>
+
+    <h2>4. Steganography Studio & Media Privacy</h2>
+    <p>The Steganography Studio allows users to embed encrypted messages into images using 24-bit RGB Least Significant Bit (LSB) encoding with AES-GCM 256-bit encryption:</p>
+    <ul>
+        <li><strong>On-Device Encryption:</strong> All encoding and decoding happens locally on your device CPU. Your photos and secret keys are never uploaded to the cloud.</li>
+        <li><strong>Scoped Storage:</strong> Stealth images are saved directly to your device public pictures directory (<code>Pictures/MrBoardStego</code>).</li>
+        <li><strong>Secure Original Photo Deletion:</strong> If you choose to delete the unencoded original photo after embedding, Mr. Board uses the official Android <code>MediaStore.createDeleteRequest</code> system API, which explicitly asks for your operating system confirmation before deleting the file.</li>
+    </ul>
+
+    <h2>5. Digital Signature Studio</h2>
+    <p>The Digital Signature Studio enables drawing and exporting transparent vector signatures and date stamps:</p>
+    <ul>
+        <li>Signatures and verification timestamps are rendered locally on your device screen.</li>
+        <li>Exported PNG files are stored in your device storage (<code>Pictures/MrBoardSignatures</code>) for your personal use. They are never transmitted externally.</li>
+    </ul>
+
+    <h2>6. 100% Ad-Free & Zero Third-Party Trackers</h2>
+    <p>Mr. Board is completely ad-free and tracking-free:</p>
+    <ul>
+        <li>We do <strong>NOT</strong> integrate advertising networks (no Unity Ads, Google AdMob, or banner networks).</li>
+        <li>We do <strong>NOT</strong> embed behavioral analytics, location trackers, or profiling SDKs.</li>
+        <li>No third-party SDKs have access to your device data through this application.</li>
+    </ul>
+
+    <h2>7. Device Permissions & Justifications</h2>
+    <p>Mr. Board requests only the minimal permissions required to provide its core utility features:</p>
+    <ul>
+        <li><code>android.permission.VIBRATE</code>: Provides haptic feedback when pressing keyboard keys or trackpad buttons.</li>
+        <li><code>android.permission.SYSTEM_ALERT_WINDOW</code>: Allows the floating Mr. Mouse trackpad overlay to appear over other applications when triggered by the user.</li>
+        <li><code>android.permission.BIND_ACCESSIBILITY_SERVICE</code>: Dispatches touch gestures commanding cursor clicks, scrolls, and drag-and-drop.</li>
+        <li><code>android.permission.READ_MEDIA_IMAGES</code>: Required on Android 13+ solely when you request Steganography Studio to identify and prompt deletion of an original unencrypted photo.</li>
+        <li><code>android.permission.RECEIVE_BOOT_COMPLETED</code>: Enables Direct Boot support so the keyboard is ready immediately when your device starts.</li>
+    </ul>
+
+    <h2>8. Children's Privacy (COPPA Compliance)</h2>
+    <p>Mr. Board does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. The application does not contain behavioral profiling, age-gated advertisements, or social chat channels.</p>
+
+    <h2>9. Security of Your Data</h2>
+    <p>Because we do not store, collect, or transmit your personal data, your security is tied directly to your physical device. We utilize industry-standard AES-256 GCM encryption algorithms for protected tools (Steganography Studio and Password Generator), ensuring your encrypted data remains mathematically secure.</p>
+
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We advise you to review this page periodically for any updates.</p>
+
+    <h2>11. Developer Contact Information</h2>
+    <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or Mr. Board, please contact the developer directly:</p>
+
+    <div class="contact-card">
+        <p><strong>Developer:</strong> Mr. HU Apps</p>
+        <p><strong>Lead Engineer / Owner:</strong> Hazrat Umar Khan</p>
+        <p><strong>Official Contact Email:</strong> <a href="mailto:hazratumarkhan480@gmail.com">hazratumarkhan480@gmail.com</a></p>
+        <p><strong>Application:</strong> Mr. Board (com.mrhuapp.mrboard)</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Mr. HU Apps. All rights reserved. Hosted on GitHub Pages.</p>
+    </footer>
+</div>
+
+</body>
+</html>
